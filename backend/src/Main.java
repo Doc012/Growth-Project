@@ -17,15 +17,8 @@ public class Main{
                     );
             int choice = scanner.nextInt();
 
-            // Slender, Inside the switch cases, before the break:
-
-            
-            
             switch (choice){
                 case 1:
-                    /* Slender: Collect two numbers and print something like
-                     "You entered: 7 and 3, We'll calculate later."
-                     */
                     System.out.print("Enter the first number: ");
                     double number1 = scanner.nextDouble();
                     System.out.print("Enter the second number: ");
@@ -34,7 +27,6 @@ public class Main{
                     System.out.println("Addition coming soon...\n");
                     break;
                 case 2:
-                    // Even here
                 	System.out.print("Enter the first number: ");
                     double num = scanner.nextDouble();
                     System.out.print("Enter the second number: ");
@@ -43,7 +35,6 @@ public class Main{
                     System.out.println("Subtraction coming soon...\n");
                     break;
                 case 3:
-                    // And here
                 	System.out.print("Enter the first number: ");
                     double digit1 = scanner.nextDouble();
                     System.out.print("Enter the second number: ");
@@ -52,7 +43,6 @@ public class Main{
                     System.out.println("Multiplication coming soon...\n");
                     break;
                 case 4:
-                    // And here
                 	System.out.print("Enter the first number: ");
                     double num1 = scanner.nextDouble();
                     System.out.print("Enter the second number: ");
