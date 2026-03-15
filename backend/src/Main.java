@@ -13,7 +13,8 @@ public class Main{
                     "2. Subtraction\n" +
                     "3. Multiplication\n" +
                     "4. Division\n" +
-                    "5. Exit\n=>"
+                    "5. Exit\n=>" +
+                    "6. Show History\n"
                     );
             int choice = scanner.nextInt();
 
