@@ -25,7 +25,7 @@ public class Main{
                     System.out.print("Enter the second number: ");
                     double number2 = scanner.nextDouble();
                     System.out.println(number1 + " and " + number2);
-                    System.out.println("Addition coming soon...\n");
+                    System.out.println(number1+number2);
                     break;
                 case 2:
                 	System.out.print("Enter the first number: ");
@@ -33,7 +33,7 @@ public class Main{
                     System.out.print("Enter the second number: ");
                     double numb2 = scanner.nextDouble();
                     System.out.println(num + " and " + numb2);
-                    System.out.println("Subtraction coming soon...\n");
+                    System.out.println(num-numb2);
                     break;
                 case 3:
                 	System.out.print("Enter the first number: ");
@@ -41,7 +41,7 @@ public class Main{
                     System.out.print("Enter the second number: ");
                     double digit2 = scanner.nextDouble();
                     System.out.println(digit1 + " and " + digit2);
-                    System.out.println("Multiplication coming soon...\n");
+                    System.out.println(digit1*digit2);
                     break;
                 case 4:
                 	System.out.print("Enter the first number: ");
@@ -49,7 +49,7 @@ public class Main{
                     System.out.print("Enter the second number: ");
                     double num2 = scanner.nextDouble();
                     System.out.println(num1 + " and " + num2);
-                    System.out.println("Division coming soon...\n");
+                    System.out.println(num1/num2);
                     break;
                 case 5:
                     System.out.println("Thank you, bye...\n");
